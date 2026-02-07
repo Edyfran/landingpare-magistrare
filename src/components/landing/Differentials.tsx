@@ -1,38 +1,38 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Scale, Gavel, FileText } from 'lucide-react'
+import { GraduationCap, BookMarked, UserCheck } from 'lucide-react'
 
 export function Differentials() {
   const differentials = [
     {
-      icon: Scale,
-      title: 'Pesquisa Jurídica via IA',
+      icon: UserCheck,
+      title: 'Professores Especialistas',
       description:
-        'Encontre jurisprudências e precedentes em segundos com nossa inteligência artificial avançada treinada em milhões de processos.',
+        'Aprenda com quem faz o Direito acontecer. Nossos docentes são juízes, promotores e advogados renomados com ampla experiência prática e acadêmica.',
     },
     {
-      icon: Gavel,
-      title: 'Atualizações em Tempo Real',
+      icon: BookMarked,
+      title: 'Conteúdo Atualizado',
       description:
-        'Monitore seus processos 24/7. Receba notificações instantâneas sobre qualquer movimentação nos tribunais de todo o país.',
+        'Material didático revisado semanalmente para acompanhar as constantes mudanças legislativas e as jurisprudências mais recentes dos tribunais superiores.',
     },
     {
-      icon: FileText,
-      title: 'Gestão de Casos Intuitiva',
+      icon: GraduationCap,
+      title: 'Metodologia Focada',
       description:
-        'Organize prazos, documentos e clientes em um único lugar com nossa interface drag-and-drop pensada para alta performance.',
+        'Aulas estruturadas para maximizar seu aprendizado em menos tempo. Foco total no que realmente cai nas provas da OAB e concursos, e no que é essencial para a prática.',
     },
   ]
 
   return (
-    <section id="diferenciais" className="py-20 bg-white">
+    <section id="diferenciais" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900">
-            Por que escolher a Magistrare?
+            Por que estudar com a Magistrare?
           </h2>
           <p className="text-muted-foreground text-lg">
-            Tecnologia desenvolvida por advogados para advogados, focada em
-            resolver os gargalos reais da profissão.
+            Somos especialistas em ensino jurídico de alta performance, unindo
+            tradição e tecnologia.
           </p>
         </div>
 
@@ -40,18 +40,18 @@ export function Differentials() {
           {differentials.map((item, index) => (
             <Card
               key={index}
-              className="group hover:-translate-y-1 transition-all duration-300 hover:shadow-lg border-slate-100"
+              className="group hover:-translate-y-2 transition-all duration-300 hover:shadow-xl border-slate-100 bg-slate-50/50"
             >
               <CardHeader>
-                <div className="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary transition-colors">
-                  <item.icon className="h-6 w-6 text-primary group-hover:text-white transition-colors" />
+                <div className="w-14 h-14 bg-white rounded-xl shadow-sm border border-slate-100 flex items-center justify-center mb-4 group-hover:bg-red-700 group-hover:border-red-700 transition-colors duration-300">
+                  <item.icon className="h-7 w-7 text-red-700 group-hover:text-white transition-colors duration-300" />
                 </div>
-                <CardTitle className="text-xl font-bold">
+                <CardTitle className="text-xl font-bold text-slate-900">
                   {item.title}
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-slate-600 leading-relaxed">
                   {item.description}
                 </p>
               </CardContent>

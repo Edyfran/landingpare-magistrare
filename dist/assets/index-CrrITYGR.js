@@ -18884,6 +18884,20 @@ var ArrowRight = createLucideIcon("arrow-right", [["path", {
 	d: "m12 5 7 7-7 7",
 	key: "xquz4c"
 }]]);
+var BookMarked = createLucideIcon("book-marked", [["path", {
+	d: "M10 2v8l3-3 3 3V2",
+	key: "sqw3rj"
+}], ["path", {
+	d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
+	key: "k3hazp"
+}]]);
+var BookOpen = createLucideIcon("book-open", [["path", {
+	d: "M12 7v14",
+	key: "1akyts"
+}], ["path", {
+	d: "M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z",
+	key: "ruj8y"
+}]]);
 var Check = createLucideIcon("check", [["path", {
 	d: "M20 6 9 17l-5-5",
 	key: "1gmf2c"
@@ -18892,61 +18906,22 @@ var ChevronDown = createLucideIcon("chevron-down", [["path", {
 	d: "m6 9 6 6 6-6",
 	key: "qrunsl"
 }]]);
-var CirclePlay = createLucideIcon("circle-play", [["path", {
-	d: "M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z",
-	key: "kmsa83"
-}], ["circle", {
-	cx: "12",
-	cy: "12",
-	r: "10",
-	key: "1mglay"
-}]]);
 var Facebook = createLucideIcon("facebook", [["path", {
 	d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z",
 	key: "1jg4f8"
 }]]);
-var FileText = createLucideIcon("file-text", [
+var GraduationCap = createLucideIcon("graduation-cap", [
 	["path", {
-		d: "M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z",
-		key: "1oefj6"
+		d: "M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z",
+		key: "j76jl0"
 	}],
 	["path", {
-		d: "M14 2v5a1 1 0 0 0 1 1h5",
-		key: "wfsgrz"
+		d: "M22 10v6",
+		key: "1lu8f3"
 	}],
 	["path", {
-		d: "M10 9H8",
-		key: "b1mrlr"
-	}],
-	["path", {
-		d: "M16 13H8",
-		key: "t4e002"
-	}],
-	["path", {
-		d: "M16 17H8",
-		key: "z1uh3a"
-	}]
-]);
-var Gavel = createLucideIcon("gavel", [
-	["path", {
-		d: "m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381",
-		key: "pgg06f"
-	}],
-	["path", {
-		d: "m16 16 6-6",
-		key: "vzrcl6"
-	}],
-	["path", {
-		d: "m21.5 10.5-8-8",
-		key: "a17d9x"
-	}],
-	["path", {
-		d: "m8 8 6-6",
-		key: "18bi4p"
-	}],
-	["path", {
-		d: "m8.5 7.5 8 8",
-		key: "1oyaui"
+		d: "M6 12.5V16a6 3 0 0 0 12 0v-3.5",
+		key: "1r8lef"
 	}]
 ]);
 var Instagram = createLucideIcon("instagram", [
@@ -18990,6 +18965,26 @@ var Linkedin = createLucideIcon("linkedin", [
 		key: "bt5ra8"
 	}]
 ]);
+var Mail = createLucideIcon("mail", [["path", {
+	d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7",
+	key: "132q7q"
+}], ["rect", {
+	x: "2",
+	y: "4",
+	width: "20",
+	height: "16",
+	rx: "2",
+	key: "izxlao"
+}]]);
+var MapPin = createLucideIcon("map-pin", [["path", {
+	d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
+	key: "1r0f0z"
+}], ["circle", {
+	cx: "12",
+	cy: "10",
+	r: "3",
+	key: "ilqhr7"
+}]]);
 var Menu = createLucideIcon("menu", [
 	["path", {
 		d: "M4 5h16",
@@ -19033,10 +19028,96 @@ var Scale = createLucideIcon("scale", [
 		key: "1b0cd5"
 	}]
 ]);
+var Star = createLucideIcon("star", [["path", {
+	d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
+	key: "r04s7s"
+}]]);
+var Target = createLucideIcon("target", [
+	["circle", {
+		cx: "12",
+		cy: "12",
+		r: "10",
+		key: "1mglay"
+	}],
+	["circle", {
+		cx: "12",
+		cy: "12",
+		r: "6",
+		key: "1vlfrh"
+	}],
+	["circle", {
+		cx: "12",
+		cy: "12",
+		r: "2",
+		key: "1c9p78"
+	}]
+]);
+var Trophy = createLucideIcon("trophy", [
+	["path", {
+		d: "M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978",
+		key: "1n3hpd"
+	}],
+	["path", {
+		d: "M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978",
+		key: "rfe1zi"
+	}],
+	["path", {
+		d: "M18 9h1.5a1 1 0 0 0 0-5H18",
+		key: "7xy6bh"
+	}],
+	["path", {
+		d: "M4 22h16",
+		key: "57wxv0"
+	}],
+	["path", {
+		d: "M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z",
+		key: "1mhfuq"
+	}],
+	["path", {
+		d: "M6 9H4.5a1 1 0 0 1 0-5H6",
+		key: "tex48p"
+	}]
+]);
 var Twitter = createLucideIcon("twitter", [["path", {
 	d: "M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z",
 	key: "pff0z6"
 }]]);
+var UserCheck = createLucideIcon("user-check", [
+	["path", {
+		d: "m16 11 2 2 4-4",
+		key: "9rsbq5"
+	}],
+	["path", {
+		d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2",
+		key: "1yyitq"
+	}],
+	["circle", {
+		cx: "9",
+		cy: "7",
+		r: "4",
+		key: "nufk8"
+	}]
+]);
+var Users = createLucideIcon("users", [
+	["path", {
+		d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2",
+		key: "1yyitq"
+	}],
+	["path", {
+		d: "M16 3.128a4 4 0 0 1 0 7.744",
+		key: "16gr8j"
+	}],
+	["path", {
+		d: "M22 21v-2a4 4 0 0 0-3-3.87",
+		key: "kshegd"
+	}],
+	["circle", {
+		cx: "9",
+		cy: "7",
+		r: "4",
+		key: "nufk8"
+	}]
+]);
 var X = createLucideIcon("x", [["path", {
 	d: "M18 6 6 18",
 	key: "1bl5f8"
@@ -23859,8 +23940,11 @@ var Button = import_react.forwardRef(({ className, variant, size: size$3, asChil
 });
 Button.displayName = "Button";
 function Hero() {
+	const scrollTo = (id) => {
+		document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
+	};
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-		className: "relative pt-12 pb-20 lg:pt-24 lg:pb-32 overflow-hidden bg-gradient-to-b from-red-50/50 to-white",
+		className: "relative pt-28 pb-20 lg:pt-40 lg:pb-32 overflow-hidden bg-gradient-to-b from-red-50 to-white",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "container mx-auto px-4",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -23869,16 +23953,16 @@ function Hero() {
 					className: "flex-1 space-y-8 animate-fade-in-up",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-100 text-red-700 text-sm font-medium",
+							className: "inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-100 text-red-700 text-sm font-medium border border-red-200",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 								className: "relative flex h-2 w-2",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "relative inline-flex rounded-full h-2 w-2 bg-red-500" })]
-							}), "A revolução jurídica chegou"]
+							}), "Novas turmas abertas para OAB 2025"]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
-							className: "text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-slate-900 leading-tight",
+							className: "text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-slate-900 leading-[1.15]",
 							children: [
-								"Domine o Direito com a",
+								"Domine as Disciplinas do Direito com a",
 								" ",
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "text-primary",
@@ -23888,67 +23972,88 @@ function Hero() {
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "text-lg md:text-xl text-slate-600 leading-relaxed max-w-xl",
-							children: "A plataforma definitiva para advogados que buscam excelência. Automatize rotinas, gerencie processos com IA e tome decisões estratégicas baseadas em dados."
+							children: "A plataforma de ensino definitiva para estudantes e profissionais. Cursos especializados, professores renomados e metodologia focada na sua aprovação e carreira jurídica."
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "flex flex-col sm:flex-row gap-4",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
 								size: "lg",
-								className: "text-base h-12 px-8 shadow-xl shadow-red-700/20 hover:scale-105 transition-transform",
-								children: ["Teste Grátis por 14 dias", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "ml-2 h-4 w-4" })]
+								onClick: () => scrollTo("#planos"),
+								className: "text-base h-14 px-8 shadow-xl shadow-red-700/20 hover:scale-105 transition-transform bg-red-700 hover:bg-red-800",
+								children: ["Começar Agora", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "ml-2 h-5 w-5" })]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
 								size: "lg",
 								variant: "outline",
-								className: "text-base h-12 px-8 hover:bg-red-50 hover:text-red-700 border-red-200",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CirclePlay, { className: "mr-2 h-4 w-4" }), "Ver Demonstração"]
+								onClick: () => scrollTo("#diferenciais"),
+								className: "text-base h-14 px-8 hover:bg-red-50 hover:text-red-700 border-red-200 text-slate-700",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BookOpen, { className: "mr-2 h-5 w-5" }), "Conhecer Cursos"]
 							})]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "flex items-center gap-4 text-sm text-muted-foreground pt-4",
+							className: "flex items-center gap-4 text-sm text-muted-foreground pt-4 border-t border-slate-200 mt-8",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "flex -space-x-2",
+								className: "flex -space-x-3",
 								children: [
 									1,
 									2,
 									3,
 									4
 								].map((i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-									className: "inline-block h-8 w-8 rounded-full ring-2 ring-white object-cover",
-									src: `https://img.usecurling.com/ppl/thumbnail?gender=male&seed=${i}`,
+									className: "inline-block h-10 w-10 rounded-full ring-2 ring-white object-cover",
+									src: `https://img.usecurling.com/ppl/thumbnail?gender=${i % 2 === 0 ? "female" : "male"}&seed=${i + 10}`,
 									alt: "User"
 								}, i))
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Junte-se a +10.000 advogados" })]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "font-semibold text-slate-900",
+								children: "+5.000 Alunos"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-xs",
+								children: "Certificados emitidos este mês"
+							})] })]
 						})
 					]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex-1 relative w-full max-w-2xl lg:max-w-none animate-fade-in delay-200",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "relative rounded-xl overflow-hidden shadow-2xl border border-slate-200 bg-white",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "absolute top-0 w-full h-8 bg-slate-100 border-b flex items-center gap-2 px-4",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-3 h-3 rounded-full bg-red-400" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-3 h-3 rounded-full bg-yellow-400" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-3 h-3 rounded-full bg-green-400" })
-							]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-							src: "https://img.usecurling.com/p/1200/800?q=legal%20dashboard%20software%20ui&color=red",
-							alt: "Plataforma Magistrare",
-							className: "w-full h-auto pt-8"
-						})]
+						className: "relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 bg-white",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "absolute top-0 w-full h-8 bg-slate-100 border-b flex items-center gap-2 px-4 z-10",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-3 h-3 rounded-full bg-red-400" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-3 h-3 rounded-full bg-yellow-400" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-3 h-3 rounded-full bg-green-400" })
+								]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+								src: "https://img.usecurling.com/p/1200/800?q=online%20law%20course%20platform%20interface&color=red",
+								alt: "Plataforma de Ensino Magistrare",
+								className: "w-full h-auto pt-8 scale-105 hover:scale-100 transition-transform duration-700"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-8 text-white",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-sm font-medium opacity-90",
+									children: "Aula em andamento"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-lg font-bold",
+									children: "Direito Constitucional: Direitos Fundamentais"
+								})]
+							})
+						]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-xl border animate-float hidden md:block",
+						className: "absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-xl border border-slate-100 animate-float hidden md:block",
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "flex items-center gap-3",
+							className: "flex items-center gap-4",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "bg-green-100 p-2 rounded-full",
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "h-5 w-5 text-green-600 rotate-[-45deg]" })
+								className: "bg-red-100 p-3 rounded-full",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BookOpen, { className: "h-6 w-6 text-red-700" })
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-xs text-muted-foreground",
-								children: "Produtividade"
+								className: "text-xs text-muted-foreground uppercase tracking-wide font-semibold",
+								children: "Cursos Disponíveis"
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "font-bold text-slate-900",
-								children: "+127%"
+								className: "font-bold text-2xl text-slate-900",
+								children: "+120"
 							})] })]
 						})
 					})]
@@ -23996,46 +24101,46 @@ CardFooter.displayName = "CardFooter";
 function Differentials() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 		id: "diferenciais",
-		className: "py-20 bg-white",
+		className: "py-24 bg-white",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "text-center max-w-3xl mx-auto mb-16 space-y-4",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 					className: "text-3xl md:text-4xl font-serif font-bold text-slate-900",
-					children: "Por que escolher a Magistrare?"
+					children: "Por que estudar com a Magistrare?"
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "text-muted-foreground text-lg",
-					children: "Tecnologia desenvolvida por advogados para advogados, focada em resolver os gargalos reais da profissão."
+					children: "Somos especialistas em ensino jurídico de alta performance, unindo tradição e tecnologia."
 				})]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 				className: "grid md:grid-cols-3 gap-8",
 				children: [
 					{
-						icon: Scale,
-						title: "Pesquisa Jurídica via IA",
-						description: "Encontre jurisprudências e precedentes em segundos com nossa inteligência artificial avançada treinada em milhões de processos."
+						icon: UserCheck,
+						title: "Professores Especialistas",
+						description: "Aprenda com quem faz o Direito acontecer. Nossos docentes são juízes, promotores e advogados renomados com ampla experiência prática e acadêmica."
 					},
 					{
-						icon: Gavel,
-						title: "Atualizações em Tempo Real",
-						description: "Monitore seus processos 24/7. Receba notificações instantâneas sobre qualquer movimentação nos tribunais de todo o país."
+						icon: BookMarked,
+						title: "Conteúdo Atualizado",
+						description: "Material didático revisado semanalmente para acompanhar as constantes mudanças legislativas e as jurisprudências mais recentes dos tribunais superiores."
 					},
 					{
-						icon: FileText,
-						title: "Gestão de Casos Intuitiva",
-						description: "Organize prazos, documentos e clientes em um único lugar com nossa interface drag-and-drop pensada para alta performance."
+						icon: GraduationCap,
+						title: "Metodologia Focada",
+						description: "Aulas estruturadas para maximizar seu aprendizado em menos tempo. Foco total no que realmente cai nas provas da OAB e concursos, e no que é essencial para a prática."
 					}
 				].map((item, index$1) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
-					className: "group hover:-translate-y-1 transition-all duration-300 hover:shadow-lg border-slate-100",
+					className: "group hover:-translate-y-2 transition-all duration-300 hover:shadow-xl border-slate-100 bg-slate-50/50",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardHeader, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary transition-colors",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(item.icon, { className: "h-6 w-6 text-primary group-hover:text-white transition-colors" })
+						className: "w-14 h-14 bg-white rounded-xl shadow-sm border border-slate-100 flex items-center justify-center mb-4 group-hover:bg-red-700 group-hover:border-red-700 transition-colors duration-300",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(item.icon, { className: "h-7 w-7 text-red-700 group-hover:text-white transition-colors duration-300" })
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardTitle, {
-						className: "text-xl font-bold",
+						className: "text-xl font-bold text-slate-900",
 						children: item.title
 					})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardContent, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-muted-foreground leading-relaxed",
+						className: "text-slate-600 leading-relaxed",
 						children: item.description
 					}) })]
 				}, index$1))
@@ -24043,418 +24148,57 @@ function Differentials() {
 		})
 	});
 }
-var COLLAPSIBLE_NAME = "Collapsible";
-var [createCollapsibleContext, createCollapsibleScope] = createContextScope(COLLAPSIBLE_NAME);
-var [CollapsibleProvider, useCollapsibleContext] = createCollapsibleContext(COLLAPSIBLE_NAME);
-var Collapsible = import_react.forwardRef((props, forwardedRef) => {
-	const { __scopeCollapsible, open: openProp, defaultOpen, disabled, onOpenChange, ...collapsibleProps } = props;
-	const [open, setOpen] = useControllableState({
-		prop: openProp,
-		defaultProp: defaultOpen ?? false,
-		onChange: onOpenChange,
-		caller: COLLAPSIBLE_NAME
-	});
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CollapsibleProvider, {
-		scope: __scopeCollapsible,
-		disabled,
-		contentId: useId(),
-		open,
-		onOpenToggle: import_react.useCallback(() => setOpen((prevOpen) => !prevOpen), [setOpen]),
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Primitive.div, {
-			"data-state": getState$2(open),
-			"data-disabled": disabled ? "" : void 0,
-			...collapsibleProps,
-			ref: forwardedRef
-		})
-	});
-});
-Collapsible.displayName = COLLAPSIBLE_NAME;
-var TRIGGER_NAME$2 = "CollapsibleTrigger";
-var CollapsibleTrigger = import_react.forwardRef((props, forwardedRef) => {
-	const { __scopeCollapsible, ...triggerProps } = props;
-	const context = useCollapsibleContext(TRIGGER_NAME$2, __scopeCollapsible);
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Primitive.button, {
-		type: "button",
-		"aria-controls": context.contentId,
-		"aria-expanded": context.open || false,
-		"data-state": getState$2(context.open),
-		"data-disabled": context.disabled ? "" : void 0,
-		disabled: context.disabled,
-		...triggerProps,
-		ref: forwardedRef,
-		onClick: composeEventHandlers(props.onClick, context.onOpenToggle)
-	});
-});
-CollapsibleTrigger.displayName = TRIGGER_NAME$2;
-var CONTENT_NAME$2 = "CollapsibleContent";
-var CollapsibleContent = import_react.forwardRef((props, forwardedRef) => {
-	const { forceMount, ...contentProps } = props;
-	const context = useCollapsibleContext(CONTENT_NAME$2, props.__scopeCollapsible);
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Presence, {
-		present: forceMount || context.open,
-		children: ({ present }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CollapsibleContentImpl, {
-			...contentProps,
-			ref: forwardedRef,
-			present
-		})
-	});
-});
-CollapsibleContent.displayName = CONTENT_NAME$2;
-var CollapsibleContentImpl = import_react.forwardRef((props, forwardedRef) => {
-	const { __scopeCollapsible, present, children, ...contentProps } = props;
-	const context = useCollapsibleContext(CONTENT_NAME$2, __scopeCollapsible);
-	const [isPresent, setIsPresent] = import_react.useState(present);
-	const ref = import_react.useRef(null);
-	const composedRefs = useComposedRefs(forwardedRef, ref);
-	const heightRef = import_react.useRef(0);
-	const height = heightRef.current;
-	const widthRef = import_react.useRef(0);
-	const width = widthRef.current;
-	const isOpen = context.open || isPresent;
-	const isMountAnimationPreventedRef = import_react.useRef(isOpen);
-	const originalStylesRef = import_react.useRef(void 0);
-	import_react.useEffect(() => {
-		const rAF = requestAnimationFrame(() => isMountAnimationPreventedRef.current = false);
-		return () => cancelAnimationFrame(rAF);
-	}, []);
-	useLayoutEffect2(() => {
-		const node = ref.current;
-		if (node) {
-			originalStylesRef.current = originalStylesRef.current || {
-				transitionDuration: node.style.transitionDuration,
-				animationName: node.style.animationName
-			};
-			node.style.transitionDuration = "0s";
-			node.style.animationName = "none";
-			const rect = node.getBoundingClientRect();
-			heightRef.current = rect.height;
-			widthRef.current = rect.width;
-			if (!isMountAnimationPreventedRef.current) {
-				node.style.transitionDuration = originalStylesRef.current.transitionDuration;
-				node.style.animationName = originalStylesRef.current.animationName;
-			}
-			setIsPresent(present);
-		}
-	}, [context.open, present]);
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Primitive.div, {
-		"data-state": getState$2(context.open),
-		"data-disabled": context.disabled ? "" : void 0,
-		id: context.contentId,
-		hidden: !isOpen,
-		...contentProps,
-		ref: composedRefs,
-		style: {
-			[`--radix-collapsible-content-height`]: height ? `${height}px` : void 0,
-			[`--radix-collapsible-content-width`]: width ? `${width}px` : void 0,
-			...props.style
-		},
-		children: isOpen && children
-	});
-});
-function getState$2(open) {
-	return open ? "open" : "closed";
-}
-var Root$1 = Collapsible;
-var Trigger$1 = CollapsibleTrigger;
-var Content$1 = CollapsibleContent;
-var DirectionContext = import_react.createContext(void 0);
-function useDirection(localDir) {
-	const globalDir = import_react.useContext(DirectionContext);
-	return localDir || globalDir || "ltr";
-}
-var ACCORDION_NAME = "Accordion";
-var ACCORDION_KEYS = [
-	"Home",
-	"End",
-	"ArrowDown",
-	"ArrowUp",
-	"ArrowLeft",
-	"ArrowRight"
-];
-var [Collection, useCollection, createCollectionScope] = createCollection(ACCORDION_NAME);
-var [createAccordionContext, createAccordionScope] = createContextScope(ACCORDION_NAME, [createCollectionScope, createCollapsibleScope]);
-var useCollapsibleScope = createCollapsibleScope();
-var Accordion$1 = import_react.forwardRef((props, forwardedRef) => {
-	const { type, ...accordionProps } = props;
-	const singleProps = accordionProps;
-	const multipleProps = accordionProps;
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Collection.Provider, {
-		scope: props.__scopeAccordion,
-		children: type === "multiple" ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionImplMultiple, {
-			...multipleProps,
-			ref: forwardedRef
-		}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionImplSingle, {
-			...singleProps,
-			ref: forwardedRef
-		})
-	});
-});
-Accordion$1.displayName = ACCORDION_NAME;
-var [AccordionValueProvider, useAccordionValueContext] = createAccordionContext(ACCORDION_NAME);
-var [AccordionCollapsibleProvider, useAccordionCollapsibleContext] = createAccordionContext(ACCORDION_NAME, { collapsible: false });
-var AccordionImplSingle = import_react.forwardRef((props, forwardedRef) => {
-	const { value: valueProp, defaultValue, onValueChange = () => {}, collapsible = false, ...accordionSingleProps } = props;
-	const [value, setValue] = useControllableState({
-		prop: valueProp,
-		defaultProp: defaultValue ?? "",
-		onChange: onValueChange,
-		caller: ACCORDION_NAME
-	});
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionValueProvider, {
-		scope: props.__scopeAccordion,
-		value: import_react.useMemo(() => value ? [value] : [], [value]),
-		onItemOpen: setValue,
-		onItemClose: import_react.useCallback(() => collapsible && setValue(""), [collapsible, setValue]),
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionCollapsibleProvider, {
-			scope: props.__scopeAccordion,
-			collapsible,
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionImpl, {
-				...accordionSingleProps,
-				ref: forwardedRef
-			})
-		})
-	});
-});
-var AccordionImplMultiple = import_react.forwardRef((props, forwardedRef) => {
-	const { value: valueProp, defaultValue, onValueChange = () => {}, ...accordionMultipleProps } = props;
-	const [value, setValue] = useControllableState({
-		prop: valueProp,
-		defaultProp: defaultValue ?? [],
-		onChange: onValueChange,
-		caller: ACCORDION_NAME
-	});
-	const handleItemOpen = import_react.useCallback((itemValue) => setValue((prevValue = []) => [...prevValue, itemValue]), [setValue]);
-	const handleItemClose = import_react.useCallback((itemValue) => setValue((prevValue = []) => prevValue.filter((value2) => value2 !== itemValue)), [setValue]);
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionValueProvider, {
-		scope: props.__scopeAccordion,
-		value,
-		onItemOpen: handleItemOpen,
-		onItemClose: handleItemClose,
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionCollapsibleProvider, {
-			scope: props.__scopeAccordion,
-			collapsible: true,
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionImpl, {
-				...accordionMultipleProps,
-				ref: forwardedRef
-			})
-		})
-	});
-});
-var [AccordionImplProvider, useAccordionContext] = createAccordionContext(ACCORDION_NAME);
-var AccordionImpl = import_react.forwardRef((props, forwardedRef) => {
-	const { __scopeAccordion, disabled, dir, orientation = "vertical", ...accordionProps } = props;
-	const composedRefs = useComposedRefs(import_react.useRef(null), forwardedRef);
-	const getItems = useCollection(__scopeAccordion);
-	const isDirectionLTR = useDirection(dir) === "ltr";
-	const handleKeyDown = composeEventHandlers(props.onKeyDown, (event) => {
-		if (!ACCORDION_KEYS.includes(event.key)) return;
-		const target = event.target;
-		const triggerCollection = getItems().filter((item) => !item.ref.current?.disabled);
-		const triggerIndex = triggerCollection.findIndex((item) => item.ref.current === target);
-		const triggerCount = triggerCollection.length;
-		if (triggerIndex === -1) return;
-		event.preventDefault();
-		let nextIndex = triggerIndex;
-		const homeIndex = 0;
-		const endIndex = triggerCount - 1;
-		const moveNext = () => {
-			nextIndex = triggerIndex + 1;
-			if (nextIndex > endIndex) nextIndex = homeIndex;
-		};
-		const movePrev = () => {
-			nextIndex = triggerIndex - 1;
-			if (nextIndex < homeIndex) nextIndex = endIndex;
-		};
-		switch (event.key) {
-			case "Home":
-				nextIndex = homeIndex;
-				break;
-			case "End":
-				nextIndex = endIndex;
-				break;
-			case "ArrowRight":
-				if (orientation === "horizontal") if (isDirectionLTR) moveNext();
-				else movePrev();
-				break;
-			case "ArrowDown":
-				if (orientation === "vertical") moveNext();
-				break;
-			case "ArrowLeft":
-				if (orientation === "horizontal") if (isDirectionLTR) movePrev();
-				else moveNext();
-				break;
-			case "ArrowUp":
-				if (orientation === "vertical") movePrev();
-				break;
-		}
-		triggerCollection[nextIndex % triggerCount].ref.current?.focus();
-	});
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionImplProvider, {
-		scope: __scopeAccordion,
-		disabled,
-		direction: dir,
-		orientation,
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Collection.Slot, {
-			scope: __scopeAccordion,
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Primitive.div, {
-				...accordionProps,
-				"data-orientation": orientation,
-				ref: composedRefs,
-				onKeyDown: disabled ? void 0 : handleKeyDown
-			})
-		})
-	});
-});
-var ITEM_NAME = "AccordionItem";
-var [AccordionItemProvider, useAccordionItemContext] = createAccordionContext(ITEM_NAME);
-var AccordionItem$1 = import_react.forwardRef((props, forwardedRef) => {
-	const { __scopeAccordion, value, ...accordionItemProps } = props;
-	const accordionContext = useAccordionContext(ITEM_NAME, __scopeAccordion);
-	const valueContext = useAccordionValueContext(ITEM_NAME, __scopeAccordion);
-	const collapsibleScope = useCollapsibleScope(__scopeAccordion);
-	const triggerId = useId();
-	const open = value && valueContext.value.includes(value) || false;
-	const disabled = accordionContext.disabled || props.disabled;
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionItemProvider, {
-		scope: __scopeAccordion,
-		open,
-		disabled,
-		triggerId,
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Root$1, {
-			"data-orientation": accordionContext.orientation,
-			"data-state": getState$1(open),
-			...collapsibleScope,
-			...accordionItemProps,
-			ref: forwardedRef,
-			disabled,
-			open,
-			onOpenChange: (open2) => {
-				if (open2) valueContext.onItemOpen(value);
-				else valueContext.onItemClose(value);
-			}
-		})
-	});
-});
-AccordionItem$1.displayName = ITEM_NAME;
-var HEADER_NAME = "AccordionHeader";
-var AccordionHeader = import_react.forwardRef((props, forwardedRef) => {
-	const { __scopeAccordion, ...headerProps } = props;
-	const accordionContext = useAccordionContext(ACCORDION_NAME, __scopeAccordion);
-	const itemContext = useAccordionItemContext(HEADER_NAME, __scopeAccordion);
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Primitive.h3, {
-		"data-orientation": accordionContext.orientation,
-		"data-state": getState$1(itemContext.open),
-		"data-disabled": itemContext.disabled ? "" : void 0,
-		...headerProps,
-		ref: forwardedRef
-	});
-});
-AccordionHeader.displayName = HEADER_NAME;
-var TRIGGER_NAME$1 = "AccordionTrigger";
-var AccordionTrigger$1 = import_react.forwardRef((props, forwardedRef) => {
-	const { __scopeAccordion, ...triggerProps } = props;
-	const accordionContext = useAccordionContext(ACCORDION_NAME, __scopeAccordion);
-	const itemContext = useAccordionItemContext(TRIGGER_NAME$1, __scopeAccordion);
-	const collapsibleContext = useAccordionCollapsibleContext(TRIGGER_NAME$1, __scopeAccordion);
-	const collapsibleScope = useCollapsibleScope(__scopeAccordion);
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Collection.ItemSlot, {
-		scope: __scopeAccordion,
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Trigger$1, {
-			"aria-disabled": itemContext.open && !collapsibleContext.collapsible || void 0,
-			"data-orientation": accordionContext.orientation,
-			id: itemContext.triggerId,
-			...collapsibleScope,
-			...triggerProps,
-			ref: forwardedRef
-		})
-	});
-});
-AccordionTrigger$1.displayName = TRIGGER_NAME$1;
-var CONTENT_NAME$1 = "AccordionContent";
-var AccordionContent$1 = import_react.forwardRef((props, forwardedRef) => {
-	const { __scopeAccordion, ...contentProps } = props;
-	const accordionContext = useAccordionContext(ACCORDION_NAME, __scopeAccordion);
-	const itemContext = useAccordionItemContext(CONTENT_NAME$1, __scopeAccordion);
-	const collapsibleScope = useCollapsibleScope(__scopeAccordion);
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Content$1, {
-		role: "region",
-		"aria-labelledby": itemContext.triggerId,
-		"data-orientation": accordionContext.orientation,
-		...collapsibleScope,
-		...contentProps,
-		ref: forwardedRef,
-		style: {
-			["--radix-accordion-content-height"]: "var(--radix-collapsible-content-height)",
-			["--radix-accordion-content-width"]: "var(--radix-collapsible-content-width)",
-			...props.style
-		}
-	});
-});
-AccordionContent$1.displayName = CONTENT_NAME$1;
-function getState$1(open) {
-	return open ? "open" : "closed";
-}
-var Root2 = Accordion$1;
-var Item = AccordionItem$1;
-var Header$1 = AccordionHeader;
-var Trigger2 = AccordionTrigger$1;
-var Content2 = AccordionContent$1;
-var Accordion = Root2;
-var AccordionItem = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Item, {
-	ref,
-	className: cn("border-b", className),
-	...props
-}));
-AccordionItem.displayName = "AccordionItem";
-var AccordionTrigger = import_react.forwardRef(({ className, children, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Header$1, {
-	className: "flex",
-	children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Trigger2, {
-		ref,
-		className: cn("flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180", className),
-		...props,
-		children: [children, /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronDown, { className: "h-4 w-4 shrink-0 transition-transform duration-200" })]
-	})
-}));
-AccordionTrigger.displayName = Trigger2.displayName;
-var AccordionContent = import_react.forwardRef(({ className, children, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Content2, {
-	ref,
-	className: "overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down",
-	...props,
-	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-		className: cn("pb-4 pt-0", className),
-		children
-	})
-}));
-AccordionContent.displayName = Content2.displayName;
 function Benefits() {
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+	const benefits = [
+		{
+			icon: Target,
+			title: "Foco na Aprovação",
+			description: "Cronogramas personalizados para OAB e Concursos."
+		},
+		{
+			icon: Trophy,
+			title: "Certificação Válida",
+			description: "Certificados aceitos em todo território nacional."
+		},
+		{
+			icon: Users,
+			title: "Networking",
+			description: "Comunidade exclusiva de alunos e professores."
+		}
+	];
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 		id: "beneficios",
-		className: "py-20 bg-slate-50",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-			className: "container mx-auto px-4",
+		className: "py-24 bg-slate-50 relative overflow-hidden",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 right-0 w-1/3 h-full bg-red-50/50 skew-x-12 translate-x-20 hidden lg:block" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "container mx-auto px-4 relative",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "flex flex-col lg:flex-row items-center gap-16",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex-1 space-y-8",
 					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "inline-block px-4 py-1.5 rounded-full bg-red-100 text-red-800 font-semibold text-sm",
+							children: "Carreira Jurídica"
+						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-							className: "text-3xl md:text-4xl font-serif font-bold text-slate-900",
-							children: "Resultados reais para o seu dia a dia"
+							className: "text-3xl md:text-5xl font-serif font-bold text-slate-900 leading-tight",
+							children: "Resultados reais para o seu futuro profissional"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-lg text-muted-foreground",
-							children: "Elimine tarefas repetitivas e foque no que realmente importa: a defesa do seu cliente."
+							className: "text-lg text-slate-600 leading-relaxed",
+							children: "Não entregamos apenas aulas, entregamos transformação. Seja para passar na prova da ordem, conquistar um cargo público ou se especializar para o mercado privado."
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
-							className: "space-y-4",
+							className: "space-y-4 pt-4",
 							children: [
-								"Economia de até 20h semanais em tarefas administrativas",
-								"Segurança jurídica com alertas antecipados de prazos",
-								"Aumento de produtividade e faturamento do escritório"
+								"Acesso ilimitado a mais de 2.000 horas de conteúdo",
+								"Material de apoio em PDF para download",
+								"Simulados com correção via Inteligência Artificial",
+								"Mentoria mensal com grandes nomes do Direito"
 							].map((benefit, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 								className: "flex items-center gap-3",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "bg-green-100 p-1 rounded-full",
+									className: "bg-green-100 p-1.5 rounded-full",
 									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, { className: "h-4 w-4 text-green-700" })
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "font-medium text-slate-700",
@@ -24462,36 +24206,53 @@ function Benefits() {
 								})]
 							}, i))
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Accordion, {
-							type: "single",
-							collapsible: true,
-							className: "w-full",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(AccordionItem, {
-									value: "item-1",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionTrigger, { children: "Como a IA ajuda na pesquisa?" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionContent, { children: "Nossa IA analisa o contexto do seu caso e sugere jurisprudências com 98% de relevância, economizando horas de pesquisa manual." })]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(AccordionItem, {
-									value: "item-2",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionTrigger, { children: "É seguro armazenar meus dados?" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionContent, { children: "Utilizamos criptografia de ponta a ponta e servidores certificados, garantindo total confidencialidade e segurança para seus processos." })]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(AccordionItem, {
-									value: "item-3",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionTrigger, { children: "Consigo acessar pelo celular?" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionContent, { children: "Sim! Nossa plataforma é 100% responsiva e possui app dedicado para você acompanhar seus processos de onde estiver." })]
-								})
-							]
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8",
+							children: benefits.map((b$1, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "space-y-2",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(b$1.icon, { className: "h-8 w-8 text-red-700" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
+										className: "font-bold text-slate-900",
+										children: b$1.title
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-sm text-slate-500 leading-snug",
+										children: b$1.description
+									})
+								]
+							}, i))
 						})
 					]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex-1 relative",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-red-100 rounded-2xl transform rotate-3 scale-95" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-						src: "https://img.usecurling.com/p/600/700?q=lawyer%20using%20tablet%20modern%20office&color=red",
-						alt: "Advogado utilizando tablet",
-						className: "relative rounded-2xl shadow-xl w-full object-cover"
-					})]
+					className: "flex-1 relative w-full",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "relative z-10 rounded-2xl overflow-hidden shadow-2xl border-4 border-white",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+								src: "https://img.usecurling.com/p/800/1000?q=law%20student%20studying%20library&color=red",
+								alt: "Estudante de Direito",
+								className: "w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "absolute inset-0 bg-gradient-to-t from-red-900/80 to-transparent flex items-end p-8",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "text-white",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "font-serif italic text-xl mb-2",
+										children: "\"A Magistrare foi fundamental para minha aprovação na OAB.\""
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "font-bold text-red-200",
+										children: "— Julia Santos, Advogada Jr."
+									})]
+								})
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute -top-10 -right-10 w-40 h-40 bg-dots-pattern opacity-20" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute -bottom-6 -left-6 w-full h-full border-2 border-red-200 rounded-2xl -z-10" })
+					]
 				})]
 			})
-		})
+		})]
 	});
 }
 function isObject$1(subject) {
@@ -26071,83 +25832,113 @@ var CarouselNext = import_react.forwardRef(({ className, variant = "outline", si
 });
 CarouselNext.displayName = "CarouselNext";
 function Stats() {
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-		className: "bg-slate-900 py-20 text-white overflow-hidden",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "container mx-auto px-4",
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+		className: "bg-slate-900 py-24 text-white overflow-hidden relative",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-[url('https://img.usecurling.com/p/1920/1080?q=texture%20dark&color=black')] opacity-10 mix-blend-overlay" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "container mx-auto px-4 relative z-10",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "grid grid-cols-1 md:grid-cols-3 gap-8 text-center mb-20 divide-y md:divide-y-0 md:divide-x divide-slate-800",
+				className: "grid grid-cols-2 md:grid-cols-4 gap-8 text-center mb-24 border-b border-slate-800 pb-16",
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "p-4",
+						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "text-4xl md:text-5xl font-bold text-red-500 mb-2",
-							children: "10k+"
+							className: "text-4xl md:text-5xl font-bold text-red-500 font-serif",
+							children: "15k+"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "text-slate-400",
-							children: "Usuários Ativos"
+							className: "text-slate-400 text-sm font-medium uppercase tracking-wider",
+							children: "Alunos Ativos"
 						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "p-4",
+						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "text-4xl md:text-5xl font-bold text-red-500 mb-2",
-							children: "500k+"
+							className: "text-4xl md:text-5xl font-bold text-red-500 font-serif",
+							children: "120+"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "text-slate-400",
-							children: "Processos Analisados"
+							className: "text-slate-400 text-sm font-medium uppercase tracking-wider",
+							children: "Cursos Disponíveis"
 						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "p-4",
+						className: "space-y-2",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "text-4xl md:text-5xl font-bold text-red-500 mb-2",
-							children: "98%"
+							className: "text-4xl md:text-5xl font-bold text-red-500 font-serif",
+							children: "2k+"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "text-slate-400",
-							children: "Satisfação do Cliente"
+							className: "text-slate-400 text-sm font-medium uppercase tracking-wider",
+							children: "Horas de Aula"
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "space-y-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "text-4xl md:text-5xl font-bold text-red-500 font-serif",
+							children: "92%"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "text-slate-400 text-sm font-medium uppercase tracking-wider",
+							children: "Aprovação OAB"
 						})]
 					})
 				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "max-w-4xl mx-auto",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-					className: "text-2xl font-serif text-center mb-10",
-					children: "O que dizem nossos especialistas"
+				className: "max-w-5xl mx-auto",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "text-center mb-12",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+						className: "text-3xl font-serif font-bold mb-4",
+						children: "Quem estuda, recomenda"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "flex justify-center gap-1 text-yellow-400",
+						children: [
+							1,
+							2,
+							3,
+							4,
+							5
+						].map((i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Star, {
+							fill: "currentColor",
+							className: "h-5 w-5"
+						}, i))
+					})]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Carousel, {
+					opts: {
+						align: "start",
+						loop: true
+					},
 					className: "w-full",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CarouselContent, { children: [
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CarouselContent, {
+						className: "-ml-4",
+						children: [
 							{
 								name: "Dr. Carlos Mendes",
-								role: "Sócio Senior, Mendes & Associados",
-								text: "A Magistrare revolucionou a forma como gerimos nossos processos. A economia de tempo é incomparável.",
+								role: "Juiz de Direito",
+								text: "O nível de profundidade dos cursos da Magistrare é impressionante. Recomendo para todos que buscam atualização constante.",
 								image: "https://img.usecurling.com/ppl/medium?gender=male&seed=10"
 							},
 							{
-								name: "Dra. Ana Paula Silva",
-								role: "Advogada Criminalista",
-								text: "A precisão das pesquisas de jurisprudência me deu uma vantagem competitiva enorme no tribunal.",
+								name: "Fernanda Oliveira",
+								role: "Aprovada OAB XXXVII",
+								text: "A metodologia focada e os simulados foram decisivos. Passei de primeira graças ao cronograma da plataforma.",
 								image: "https://img.usecurling.com/ppl/medium?gender=female&seed=22"
 							},
 							{
-								name: "Dr. Roberto Campos",
-								role: "Diretor Jurídico",
-								text: "A facilidade de uso e o suporte da equipe são excepcionais. Recomendo para todo departamento jurídico.",
+								name: "Roberto Campos",
+								role: "Mestrando em Dir. Constitucional",
+								text: "Excelente corpo docente. As aulas de Constitucional são as melhores que já assisti, didática impecável.",
 								image: "https://img.usecurling.com/ppl/medium?gender=male&seed=33"
 							}
 						].map((t, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CarouselItem, {
-							className: "md:basis-1/1",
+							className: "pl-4 md:basis-1/2 lg:basis-1/3",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "p-1",
+								className: "h-full",
 								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-									className: "bg-slate-800 border-slate-700 text-slate-100",
+									className: "bg-slate-800 border-slate-700 text-slate-100 h-full hover:border-red-500/50 transition-colors",
 									children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-										className: "flex flex-col items-center text-center p-8",
+										className: "flex flex-col p-8 h-full",
 										children: [
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Quote, { className: "h-8 w-8 text-red-500 mb-6 opacity-50" }),
 											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-												className: "text-lg md:text-xl italic mb-6 leading-relaxed",
+												className: "text-slate-300 mb-8 flex-grow leading-relaxed",
 												children: [
 													"\"",
 													t.text,
@@ -26155,18 +25946,18 @@ function Stats() {
 												]
 											}),
 											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-												className: "flex items-center gap-4",
+												className: "flex items-center gap-4 mt-auto",
 												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 													src: t.image,
 													alt: t.name,
-													className: "w-12 h-12 rounded-full border-2 border-red-500"
+													className: "w-12 h-12 rounded-full border-2 border-red-500 object-cover"
 												}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 													className: "text-left",
 													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-														className: "font-bold text-white",
+														className: "font-bold text-white text-sm",
 														children: t.name
 													}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-														className: "text-sm text-slate-400",
+														className: "text-xs text-red-400 font-medium",
 														children: t.role
 													})]
 												})]
@@ -26175,13 +25966,14 @@ function Stats() {
 									})
 								})
 							})
-						}, i)) }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CarouselPrevious, { className: "hidden md:flex bg-slate-700 border-slate-600 hover:bg-red-700 hover:text-white" }),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CarouselNext, { className: "hidden md:flex bg-slate-700 border-slate-600 hover:bg-red-700 hover:text-white" })
-					]
+						}, i))
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex justify-center gap-4 mt-8",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CarouselPrevious, { className: "static translate-y-0 bg-slate-700 border-slate-600 hover:bg-red-700 hover:text-white" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CarouselNext, { className: "static translate-y-0 bg-slate-700 border-slate-600 hover:bg-red-700 hover:text-white" })]
+					})]
 				})]
 			})]
-		})
+		})]
 	});
 }
 var badgeVariants = cva("inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2", {
@@ -26200,103 +25992,589 @@ function Badge({ className, variant, ...props }) {
 	});
 }
 function Pricing() {
+	const handleSubscribe = () => {
+		toast({
+			title: "Redirecionando...",
+			description: "Você está sendo levado para a área de matrícula."
+		});
+	};
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 		id: "planos",
 		className: "py-24 bg-white",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "text-center mb-16",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-					className: "text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4",
-					children: "Planos sob medida para sua carreira"
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-muted-foreground",
-					children: "Escolha a melhor opção para o seu momento profissional."
-				})]
+				className: "text-center mb-16 max-w-2xl mx-auto",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Badge, {
+						variant: "outline",
+						className: "mb-4 text-red-700 border-red-200 bg-red-50",
+						children: "Investimento"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-6",
+						children: "Escolha o plano ideal para sua carreira"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-muted-foreground text-lg",
+						children: "Sem fidelidade. Cancele quando quiser. Invista no seu futuro com a melhor relação custo-benefício do mercado."
+					})
+				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-				className: "grid md:grid-cols-3 gap-8 max-w-6xl mx-auto items-center",
+				className: "grid md:grid-cols-3 gap-8 max-w-6xl mx-auto items-start",
 				children: [
 					{
-						name: "Estudante",
-						price: "R$ 29,90",
+						name: "Básico",
+						description: "Ideal para graduandos",
+						price: "R$ 49,90",
 						period: "/mês",
 						features: [
-							"Acesso básico à Jurisprudência",
-							"5 Processos monitorados",
-							"Modelos de peças simples"
+							"Acesso a 2 cursos por vez",
+							"Certificado digital",
+							"Material de apoio básico",
+							"Acesso mobile"
 						],
-						cta: "Começar Grátis",
+						notIncluded: [
+							"Mentoria mensal",
+							"Correção de peças",
+							"Download offline"
+						],
+						cta: "Começar Agora",
 						featured: false
 					},
 					{
-						name: "Profissional",
-						price: "R$ 89,90",
+						name: "Magistrare Pro",
+						description: "OAB e Concursos",
+						price: "R$ 99,90",
 						period: "/mês",
 						features: [
-							"IA Avançada ilimitada",
-							"50 Processos monitorados",
-							"Gestão de clientes e prazos",
+							"Cursos Ilimitados",
+							"Trilhas para OAB e Concursos",
+							"Simulados com IA",
+							"Correção de 2 peças/mês",
+							"Download para assistir offline",
 							"Suporte prioritário"
 						],
-						cta: "Assinar Profissional",
+						notIncluded: [],
+						cta: "Assinar Pro",
 						featured: true
 					},
 					{
-						name: "Enterprise",
-						price: "Sob Consulta",
-						period: "",
+						name: "Vitalício",
+						description: "Pagamento único",
+						price: "R$ 1.997",
+						period: "/único",
 						features: [
-							"API Personalizada",
-							"Processos ilimitados",
-							"Gestor de conta dedicado",
-							"Treinamento in-company"
+							"Acesso vitalício à plataforma",
+							"Todas as atualizações futuras",
+							"Mentoria exclusiva trimestral",
+							"Clube do Livro Jurídico",
+							"Grupo VIP de Networking"
 						],
-						cta: "Falar com Consultor",
+						notIncluded: [],
+						cta: "Garantir Vitalício",
 						featured: false
 					}
 				].map((plan, index$1) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
-					className: cn("relative transition-all duration-300 hover:shadow-xl", plan.featured ? "border-primary shadow-lg scale-105 z-10" : "border-slate-100"),
+					className: cn("relative transition-all duration-300 hover:shadow-xl flex flex-col h-full", plan.featured ? "border-red-600 shadow-2xl scale-105 z-10 bg-white" : "border-slate-100 bg-slate-50/50"),
 					children: [
 						plan.featured && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "absolute -top-3 left-1/2 -translate-x-1/2",
+							className: "absolute -top-4 left-1/2 -translate-x-1/2",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Badge, {
-								className: "bg-primary hover:bg-primary/90 text-white px-4 py-1",
-								children: "Mais Popular"
+								className: "bg-red-600 hover:bg-red-700 text-white px-4 py-1.5 text-sm uppercase tracking-wide font-bold shadow-lg",
+								children: "Mais Escolhido"
 							})
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardHeader, {
-							className: "text-center pt-8",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardTitle, {
-								className: "text-lg font-medium text-muted-foreground mb-2",
-								children: plan.name
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex justify-center items-baseline gap-1",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "text-4xl font-bold text-slate-900",
-									children: plan.price
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "text-sm text-muted-foreground",
-									children: plan.period
-								})]
+							className: "text-center pt-10 pb-2",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardTitle, {
+									className: "text-xl font-bold text-slate-900 mb-1",
+									children: plan.name
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-sm text-slate-500 mb-6",
+									children: plan.description
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "flex justify-center items-baseline gap-1 mb-4",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "text-4xl font-bold text-slate-900",
+										children: plan.price
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "text-sm text-muted-foreground",
+										children: plan.period
+									})]
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
+							className: "space-y-6 flex-grow",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-full h-px bg-slate-100 mb-6" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+								className: "space-y-3",
+								children: [plan.features.map((feature, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+									className: "flex items-start gap-3 text-sm text-slate-700",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "bg-green-100 rounded-full p-0.5 mt-0.5",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, { className: "h-3 w-3 text-green-600 shrink-0" })
+									}), feature]
+								}, i)), plan.notIncluded && plan.notIncluded.map((feature, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+									className: "flex items-start gap-3 text-sm text-slate-400",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "bg-slate-100 rounded-full p-0.5 mt-0.5",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(X, { className: "h-3 w-3 text-slate-400 shrink-0" })
+									}), feature]
+								}, i))]
 							})]
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardContent, {
-							className: "space-y-4",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
-								className: "space-y-3",
-								children: plan.features.map((feature, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-									className: "flex items-start gap-2 text-sm text-slate-600",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, { className: "h-4 w-4 text-green-500 shrink-0 mt-0.5" }), feature]
-								}, i))
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardFooter, {
+							className: "pt-2 pb-8",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								className: cn("w-full h-12 text-base font-semibold transition-all", plan.featured ? "bg-red-700 hover:bg-red-800 text-white shadow-lg hover:shadow-red-700/20" : "bg-white border-2 border-slate-200 hover:border-red-700 hover:text-red-700 text-slate-700"),
+								variant: plan.featured ? "default" : "outline",
+								onClick: handleSubscribe,
+								children: plan.cta
 							})
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardFooter, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-							className: "w-full",
-							variant: plan.featured ? "default" : "outline",
-							children: plan.cta
-						}) })
+						})
 					]
+				}, index$1))
+			})]
+		})
+	});
+}
+var COLLAPSIBLE_NAME = "Collapsible";
+var [createCollapsibleContext, createCollapsibleScope] = createContextScope(COLLAPSIBLE_NAME);
+var [CollapsibleProvider, useCollapsibleContext] = createCollapsibleContext(COLLAPSIBLE_NAME);
+var Collapsible = import_react.forwardRef((props, forwardedRef) => {
+	const { __scopeCollapsible, open: openProp, defaultOpen, disabled, onOpenChange, ...collapsibleProps } = props;
+	const [open, setOpen] = useControllableState({
+		prop: openProp,
+		defaultProp: defaultOpen ?? false,
+		onChange: onOpenChange,
+		caller: COLLAPSIBLE_NAME
+	});
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CollapsibleProvider, {
+		scope: __scopeCollapsible,
+		disabled,
+		contentId: useId(),
+		open,
+		onOpenToggle: import_react.useCallback(() => setOpen((prevOpen) => !prevOpen), [setOpen]),
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Primitive.div, {
+			"data-state": getState$2(open),
+			"data-disabled": disabled ? "" : void 0,
+			...collapsibleProps,
+			ref: forwardedRef
+		})
+	});
+});
+Collapsible.displayName = COLLAPSIBLE_NAME;
+var TRIGGER_NAME$2 = "CollapsibleTrigger";
+var CollapsibleTrigger = import_react.forwardRef((props, forwardedRef) => {
+	const { __scopeCollapsible, ...triggerProps } = props;
+	const context = useCollapsibleContext(TRIGGER_NAME$2, __scopeCollapsible);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Primitive.button, {
+		type: "button",
+		"aria-controls": context.contentId,
+		"aria-expanded": context.open || false,
+		"data-state": getState$2(context.open),
+		"data-disabled": context.disabled ? "" : void 0,
+		disabled: context.disabled,
+		...triggerProps,
+		ref: forwardedRef,
+		onClick: composeEventHandlers(props.onClick, context.onOpenToggle)
+	});
+});
+CollapsibleTrigger.displayName = TRIGGER_NAME$2;
+var CONTENT_NAME$2 = "CollapsibleContent";
+var CollapsibleContent = import_react.forwardRef((props, forwardedRef) => {
+	const { forceMount, ...contentProps } = props;
+	const context = useCollapsibleContext(CONTENT_NAME$2, props.__scopeCollapsible);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Presence, {
+		present: forceMount || context.open,
+		children: ({ present }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CollapsibleContentImpl, {
+			...contentProps,
+			ref: forwardedRef,
+			present
+		})
+	});
+});
+CollapsibleContent.displayName = CONTENT_NAME$2;
+var CollapsibleContentImpl = import_react.forwardRef((props, forwardedRef) => {
+	const { __scopeCollapsible, present, children, ...contentProps } = props;
+	const context = useCollapsibleContext(CONTENT_NAME$2, __scopeCollapsible);
+	const [isPresent, setIsPresent] = import_react.useState(present);
+	const ref = import_react.useRef(null);
+	const composedRefs = useComposedRefs(forwardedRef, ref);
+	const heightRef = import_react.useRef(0);
+	const height = heightRef.current;
+	const widthRef = import_react.useRef(0);
+	const width = widthRef.current;
+	const isOpen = context.open || isPresent;
+	const isMountAnimationPreventedRef = import_react.useRef(isOpen);
+	const originalStylesRef = import_react.useRef(void 0);
+	import_react.useEffect(() => {
+		const rAF = requestAnimationFrame(() => isMountAnimationPreventedRef.current = false);
+		return () => cancelAnimationFrame(rAF);
+	}, []);
+	useLayoutEffect2(() => {
+		const node = ref.current;
+		if (node) {
+			originalStylesRef.current = originalStylesRef.current || {
+				transitionDuration: node.style.transitionDuration,
+				animationName: node.style.animationName
+			};
+			node.style.transitionDuration = "0s";
+			node.style.animationName = "none";
+			const rect = node.getBoundingClientRect();
+			heightRef.current = rect.height;
+			widthRef.current = rect.width;
+			if (!isMountAnimationPreventedRef.current) {
+				node.style.transitionDuration = originalStylesRef.current.transitionDuration;
+				node.style.animationName = originalStylesRef.current.animationName;
+			}
+			setIsPresent(present);
+		}
+	}, [context.open, present]);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Primitive.div, {
+		"data-state": getState$2(context.open),
+		"data-disabled": context.disabled ? "" : void 0,
+		id: context.contentId,
+		hidden: !isOpen,
+		...contentProps,
+		ref: composedRefs,
+		style: {
+			[`--radix-collapsible-content-height`]: height ? `${height}px` : void 0,
+			[`--radix-collapsible-content-width`]: width ? `${width}px` : void 0,
+			...props.style
+		},
+		children: isOpen && children
+	});
+});
+function getState$2(open) {
+	return open ? "open" : "closed";
+}
+var Root$1 = Collapsible;
+var Trigger$1 = CollapsibleTrigger;
+var Content$1 = CollapsibleContent;
+var DirectionContext = import_react.createContext(void 0);
+function useDirection(localDir) {
+	const globalDir = import_react.useContext(DirectionContext);
+	return localDir || globalDir || "ltr";
+}
+var ACCORDION_NAME = "Accordion";
+var ACCORDION_KEYS = [
+	"Home",
+	"End",
+	"ArrowDown",
+	"ArrowUp",
+	"ArrowLeft",
+	"ArrowRight"
+];
+var [Collection, useCollection, createCollectionScope] = createCollection(ACCORDION_NAME);
+var [createAccordionContext, createAccordionScope] = createContextScope(ACCORDION_NAME, [createCollectionScope, createCollapsibleScope]);
+var useCollapsibleScope = createCollapsibleScope();
+var Accordion$1 = import_react.forwardRef((props, forwardedRef) => {
+	const { type, ...accordionProps } = props;
+	const singleProps = accordionProps;
+	const multipleProps = accordionProps;
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Collection.Provider, {
+		scope: props.__scopeAccordion,
+		children: type === "multiple" ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionImplMultiple, {
+			...multipleProps,
+			ref: forwardedRef
+		}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionImplSingle, {
+			...singleProps,
+			ref: forwardedRef
+		})
+	});
+});
+Accordion$1.displayName = ACCORDION_NAME;
+var [AccordionValueProvider, useAccordionValueContext] = createAccordionContext(ACCORDION_NAME);
+var [AccordionCollapsibleProvider, useAccordionCollapsibleContext] = createAccordionContext(ACCORDION_NAME, { collapsible: false });
+var AccordionImplSingle = import_react.forwardRef((props, forwardedRef) => {
+	const { value: valueProp, defaultValue, onValueChange = () => {}, collapsible = false, ...accordionSingleProps } = props;
+	const [value, setValue] = useControllableState({
+		prop: valueProp,
+		defaultProp: defaultValue ?? "",
+		onChange: onValueChange,
+		caller: ACCORDION_NAME
+	});
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionValueProvider, {
+		scope: props.__scopeAccordion,
+		value: import_react.useMemo(() => value ? [value] : [], [value]),
+		onItemOpen: setValue,
+		onItemClose: import_react.useCallback(() => collapsible && setValue(""), [collapsible, setValue]),
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionCollapsibleProvider, {
+			scope: props.__scopeAccordion,
+			collapsible,
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionImpl, {
+				...accordionSingleProps,
+				ref: forwardedRef
+			})
+		})
+	});
+});
+var AccordionImplMultiple = import_react.forwardRef((props, forwardedRef) => {
+	const { value: valueProp, defaultValue, onValueChange = () => {}, ...accordionMultipleProps } = props;
+	const [value, setValue] = useControllableState({
+		prop: valueProp,
+		defaultProp: defaultValue ?? [],
+		onChange: onValueChange,
+		caller: ACCORDION_NAME
+	});
+	const handleItemOpen = import_react.useCallback((itemValue) => setValue((prevValue = []) => [...prevValue, itemValue]), [setValue]);
+	const handleItemClose = import_react.useCallback((itemValue) => setValue((prevValue = []) => prevValue.filter((value2) => value2 !== itemValue)), [setValue]);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionValueProvider, {
+		scope: props.__scopeAccordion,
+		value,
+		onItemOpen: handleItemOpen,
+		onItemClose: handleItemClose,
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionCollapsibleProvider, {
+			scope: props.__scopeAccordion,
+			collapsible: true,
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionImpl, {
+				...accordionMultipleProps,
+				ref: forwardedRef
+			})
+		})
+	});
+});
+var [AccordionImplProvider, useAccordionContext] = createAccordionContext(ACCORDION_NAME);
+var AccordionImpl = import_react.forwardRef((props, forwardedRef) => {
+	const { __scopeAccordion, disabled, dir, orientation = "vertical", ...accordionProps } = props;
+	const composedRefs = useComposedRefs(import_react.useRef(null), forwardedRef);
+	const getItems = useCollection(__scopeAccordion);
+	const isDirectionLTR = useDirection(dir) === "ltr";
+	const handleKeyDown = composeEventHandlers(props.onKeyDown, (event) => {
+		if (!ACCORDION_KEYS.includes(event.key)) return;
+		const target = event.target;
+		const triggerCollection = getItems().filter((item) => !item.ref.current?.disabled);
+		const triggerIndex = triggerCollection.findIndex((item) => item.ref.current === target);
+		const triggerCount = triggerCollection.length;
+		if (triggerIndex === -1) return;
+		event.preventDefault();
+		let nextIndex = triggerIndex;
+		const homeIndex = 0;
+		const endIndex = triggerCount - 1;
+		const moveNext = () => {
+			nextIndex = triggerIndex + 1;
+			if (nextIndex > endIndex) nextIndex = homeIndex;
+		};
+		const movePrev = () => {
+			nextIndex = triggerIndex - 1;
+			if (nextIndex < homeIndex) nextIndex = endIndex;
+		};
+		switch (event.key) {
+			case "Home":
+				nextIndex = homeIndex;
+				break;
+			case "End":
+				nextIndex = endIndex;
+				break;
+			case "ArrowRight":
+				if (orientation === "horizontal") if (isDirectionLTR) moveNext();
+				else movePrev();
+				break;
+			case "ArrowDown":
+				if (orientation === "vertical") moveNext();
+				break;
+			case "ArrowLeft":
+				if (orientation === "horizontal") if (isDirectionLTR) movePrev();
+				else moveNext();
+				break;
+			case "ArrowUp":
+				if (orientation === "vertical") movePrev();
+				break;
+		}
+		triggerCollection[nextIndex % triggerCount].ref.current?.focus();
+	});
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionImplProvider, {
+		scope: __scopeAccordion,
+		disabled,
+		direction: dir,
+		orientation,
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Collection.Slot, {
+			scope: __scopeAccordion,
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Primitive.div, {
+				...accordionProps,
+				"data-orientation": orientation,
+				ref: composedRefs,
+				onKeyDown: disabled ? void 0 : handleKeyDown
+			})
+		})
+	});
+});
+var ITEM_NAME = "AccordionItem";
+var [AccordionItemProvider, useAccordionItemContext] = createAccordionContext(ITEM_NAME);
+var AccordionItem$1 = import_react.forwardRef((props, forwardedRef) => {
+	const { __scopeAccordion, value, ...accordionItemProps } = props;
+	const accordionContext = useAccordionContext(ITEM_NAME, __scopeAccordion);
+	const valueContext = useAccordionValueContext(ITEM_NAME, __scopeAccordion);
+	const collapsibleScope = useCollapsibleScope(__scopeAccordion);
+	const triggerId = useId();
+	const open = value && valueContext.value.includes(value) || false;
+	const disabled = accordionContext.disabled || props.disabled;
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionItemProvider, {
+		scope: __scopeAccordion,
+		open,
+		disabled,
+		triggerId,
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Root$1, {
+			"data-orientation": accordionContext.orientation,
+			"data-state": getState$1(open),
+			...collapsibleScope,
+			...accordionItemProps,
+			ref: forwardedRef,
+			disabled,
+			open,
+			onOpenChange: (open2) => {
+				if (open2) valueContext.onItemOpen(value);
+				else valueContext.onItemClose(value);
+			}
+		})
+	});
+});
+AccordionItem$1.displayName = ITEM_NAME;
+var HEADER_NAME = "AccordionHeader";
+var AccordionHeader = import_react.forwardRef((props, forwardedRef) => {
+	const { __scopeAccordion, ...headerProps } = props;
+	const accordionContext = useAccordionContext(ACCORDION_NAME, __scopeAccordion);
+	const itemContext = useAccordionItemContext(HEADER_NAME, __scopeAccordion);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Primitive.h3, {
+		"data-orientation": accordionContext.orientation,
+		"data-state": getState$1(itemContext.open),
+		"data-disabled": itemContext.disabled ? "" : void 0,
+		...headerProps,
+		ref: forwardedRef
+	});
+});
+AccordionHeader.displayName = HEADER_NAME;
+var TRIGGER_NAME$1 = "AccordionTrigger";
+var AccordionTrigger$1 = import_react.forwardRef((props, forwardedRef) => {
+	const { __scopeAccordion, ...triggerProps } = props;
+	const accordionContext = useAccordionContext(ACCORDION_NAME, __scopeAccordion);
+	const itemContext = useAccordionItemContext(TRIGGER_NAME$1, __scopeAccordion);
+	const collapsibleContext = useAccordionCollapsibleContext(TRIGGER_NAME$1, __scopeAccordion);
+	const collapsibleScope = useCollapsibleScope(__scopeAccordion);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Collection.ItemSlot, {
+		scope: __scopeAccordion,
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Trigger$1, {
+			"aria-disabled": itemContext.open && !collapsibleContext.collapsible || void 0,
+			"data-orientation": accordionContext.orientation,
+			id: itemContext.triggerId,
+			...collapsibleScope,
+			...triggerProps,
+			ref: forwardedRef
+		})
+	});
+});
+AccordionTrigger$1.displayName = TRIGGER_NAME$1;
+var CONTENT_NAME$1 = "AccordionContent";
+var AccordionContent$1 = import_react.forwardRef((props, forwardedRef) => {
+	const { __scopeAccordion, ...contentProps } = props;
+	const accordionContext = useAccordionContext(ACCORDION_NAME, __scopeAccordion);
+	const itemContext = useAccordionItemContext(CONTENT_NAME$1, __scopeAccordion);
+	const collapsibleScope = useCollapsibleScope(__scopeAccordion);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Content$1, {
+		role: "region",
+		"aria-labelledby": itemContext.triggerId,
+		"data-orientation": accordionContext.orientation,
+		...collapsibleScope,
+		...contentProps,
+		ref: forwardedRef,
+		style: {
+			["--radix-accordion-content-height"]: "var(--radix-collapsible-content-height)",
+			["--radix-accordion-content-width"]: "var(--radix-collapsible-content-width)",
+			...props.style
+		}
+	});
+});
+AccordionContent$1.displayName = CONTENT_NAME$1;
+function getState$1(open) {
+	return open ? "open" : "closed";
+}
+var Root2 = Accordion$1;
+var Item = AccordionItem$1;
+var Header$1 = AccordionHeader;
+var Trigger2 = AccordionTrigger$1;
+var Content2 = AccordionContent$1;
+var Accordion = Root2;
+var AccordionItem = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Item, {
+	ref,
+	className: cn("border-b", className),
+	...props
+}));
+AccordionItem.displayName = "AccordionItem";
+var AccordionTrigger = import_react.forwardRef(({ className, children, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Header$1, {
+	className: "flex",
+	children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Trigger2, {
+		ref,
+		className: cn("flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180", className),
+		...props,
+		children: [children, /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronDown, { className: "h-4 w-4 shrink-0 transition-transform duration-200" })]
+	})
+}));
+AccordionTrigger.displayName = Trigger2.displayName;
+var AccordionContent = import_react.forwardRef(({ className, children, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Content2, {
+	ref,
+	className: "overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down",
+	...props,
+	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+		className: cn("pb-4 pt-0", className),
+		children
+	})
+}));
+AccordionContent.displayName = Content2.displayName;
+function FAQ() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "faq",
+		className: "py-20 bg-slate-50",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "container mx-auto px-4 max-w-3xl",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "text-center mb-12",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4",
+					children: "Perguntas Frequentes"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "text-muted-foreground text-lg",
+					children: "Tire suas dúvidas sobre a plataforma Magistrare."
+				})]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Accordion, {
+				type: "single",
+				collapsible: true,
+				className: "w-full bg-white rounded-xl shadow-sm border border-slate-100 px-6 py-2",
+				children: [
+					{
+						question: "Os cursos possuem certificado?",
+						answer: "Sim, todos os nossos cursos oferecem certificado de conclusão com carga horária, válido como atividade complementar em faculdades e para comprovação curricular."
+					},
+					{
+						question: "Como funciona o acesso às aulas?",
+						answer: "O acesso é 100% online e on-demand. Você pode assistir às aulas quando e onde quiser, através do computador, tablet ou celular, pelo período de duração do seu plano."
+					},
+					{
+						question: "O conteúdo é atualizado?",
+						answer: "Absolutamente. O Direito é dinâmico, e nossa equipe pedagógica garante que todas as aulas e materiais estejam em conformidade com as leis e jurisprudências mais recentes."
+					},
+					{
+						question: "Posso tirar dúvidas com os professores?",
+						answer: "Sim! Alunos dos planos Profissional e Ilimitado têm acesso a um canal direto para envio de dúvidas, que são respondidas pela nossa equipe de monitores e professores."
+					},
+					{
+						question: "Existe garantia de satisfação?",
+						answer: "Oferecemos garantia incondicional de 7 dias. Se você não gostar da metodologia ou do conteúdo, devolvemos 100% do seu investimento."
+					}
+				].map((faq, index$1) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(AccordionItem, {
+					value: `item-${index$1}`,
+					className: "border-b-slate-100 last:border-0",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionTrigger, {
+						className: "text-left font-medium text-slate-900 hover:text-red-700 hover:no-underline py-6",
+						children: faq.question
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionContent, {
+						className: "text-slate-600 leading-relaxed pb-6",
+						children: faq.answer
+					})]
 				}, index$1))
 			})]
 		})
@@ -26305,32 +26583,44 @@ function Pricing() {
 function CallToAction() {
 	const handleClick = () => {
 		toast({
-			title: "Vamos começar!",
-			description: "Você será redirecionado para o cadastro.",
+			title: "Inscrição iniciada!",
+			description: "Você está a um passo de transformar sua carreira.",
 			duration: 3e3
 		});
 	};
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-		className: "py-20 bg-gradient-to-r from-red-800 to-red-600 text-white",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "container mx-auto px-4 text-center",
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+		className: "py-24 bg-gradient-to-br from-red-900 via-red-800 to-red-950 text-white relative overflow-hidden",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 opacity-10 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "container mx-auto px-4 text-center relative z-10",
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-					className: "text-3xl md:text-5xl font-serif font-bold mb-6",
-					children: "Pronto para elevar sua advocacia?"
+					className: "text-3xl md:text-5xl font-serif font-bold mb-6 tracking-tight",
+					children: "Pronto para ser um destaque no Direito?"
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-red-100 text-lg md:text-xl mb-10 max-w-2xl mx-auto",
-					children: "Junte-se a milhares de advogados que já estão transformando sua produtividade e resultados com a Magistrare."
+					className: "text-red-100 text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed",
+					children: "Junte-se a mais de 15.000 alunos que estão construindo carreiras de sucesso com a metodologia Magistrare. Experimente 7 dias grátis."
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-					size: "lg",
-					onClick: handleClick,
-					className: "bg-white text-red-700 hover:bg-slate-100 text-lg px-8 py-6 h-auto shadow-lg hover:shadow-xl transition-all font-bold",
-					children: "Quero transformar minha produtividade"
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex flex-col sm:flex-row justify-center gap-4",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+						size: "lg",
+						onClick: handleClick,
+						className: "bg-white text-red-900 hover:bg-slate-100 text-lg px-8 py-6 h-auto shadow-2xl hover:shadow-white/10 transition-all font-bold group",
+						children: ["Quero Começar Agora", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" })]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+						size: "lg",
+						variant: "outline",
+						className: "bg-transparent border-red-400 text-white hover:bg-red-800 hover:text-white text-lg px-8 py-6 h-auto transition-all font-medium",
+						children: "Falar com Consultor"
+					})]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "mt-8 text-sm text-red-300 opacity-80",
+					children: "Não é necessário cartão de crédito para testar."
 				})
 			]
-		})
+		})]
 	});
 }
 var Index = () => {
@@ -26342,6 +26632,7 @@ var Index = () => {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Benefits, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Stats, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Pricing, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FAQ, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CallToAction, {})
 		]
 	});
@@ -26749,9 +27040,9 @@ function createSidecarMedium(options$1) {
 var SideCar = function(_a) {
 	var sideCar = _a.sideCar, rest = __rest(_a, ["sideCar"]);
 	if (!sideCar) throw new Error("Sidecar: please provide `sideCar` property to import the right car");
-	var Target = sideCar.read();
-	if (!Target) throw new Error("Sidecar medium not found");
-	return import_react.createElement(Target, __assign({}, rest));
+	var Target$1 = sideCar.read();
+	if (!Target$1) throw new Error("Sidecar medium not found");
+	return import_react.createElement(Target$1, __assign({}, rest));
 };
 SideCar.isSideCarExport = true;
 function exportSidecar(medium, exported) {
@@ -27633,14 +27924,22 @@ function Header() {
 			href: "#faq"
 		}
 	];
+	const handleNavClick = (href) => {
+		const element = document.querySelector(href);
+		if (element) element.scrollIntoView({ behavior: "smooth" });
+	};
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("header", {
-		className: cn("fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent", isScrolled ? "bg-red-700 shadow-sm border-red-800 py-2" : "bg-red-700 py-4"),
+		className: cn("fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent", isScrolled ? "bg-red-700 shadow-lg border-red-800 py-2" : "bg-red-700 py-4"),
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4 flex items-center justify-between",
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
 					to: "/",
 					className: "flex items-center gap-2 group",
+					onClick: () => window.scrollTo({
+						top: 0,
+						behavior: "smooth"
+					}),
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 						className: "bg-white/10 p-2 rounded-lg group-hover:bg-white/20 transition-colors",
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, { className: "h-6 w-6 text-white" })
@@ -27653,6 +27952,10 @@ function Header() {
 					className: "hidden md:flex items-center gap-8",
 					children: navItems.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 						href: item.href,
+						onClick: (e) => {
+							e.preventDefault();
+							handleNavClick(item.href);
+						},
 						className: "text-sm font-medium text-red-100 hover:text-white transition-colors",
 						children: item.label
 					}, item.href))
@@ -27662,10 +27965,11 @@ function Header() {
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 						variant: "ghost",
 						className: "text-red-100 hover:text-white hover:bg-red-800",
-						children: "Entrar"
+						children: "Área do Aluno"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-						className: "bg-white text-red-700 hover:bg-red-50 shadow-lg shadow-black/10 border-none",
-						children: "Começar Agora"
+						className: "bg-white text-red-700 hover:bg-red-50 shadow-lg shadow-black/10 border-none font-semibold",
+						onClick: () => handleNavClick("#planos"),
+						children: "Matricule-se"
 					})]
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
@@ -27678,27 +27982,41 @@ function Header() {
 							className: "text-white hover:bg-red-800",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Menu, { className: "h-6 w-6" })
 						})
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SheetContent, {
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(SheetContent, {
 						side: "right",
 						className: "w-[300px] sm:w-[400px]",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
-							className: "flex flex-col gap-6 mt-8",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-center gap-2 mb-8",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "bg-red-700 p-2 rounded-lg",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, { className: "h-6 w-6 text-white" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-xl font-serif font-bold text-red-700 tracking-tight",
+								children: "Magistrare"
+							})]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
+							className: "flex flex-col gap-6",
 							children: [navItems.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: item.href,
-								className: "text-lg font-medium hover:text-primary transition-colors",
+								onClick: (e) => {
+									e.preventDefault();
+									handleNavClick(item.href);
+								},
+								className: "text-lg font-medium hover:text-red-700 transition-colors",
 								children: item.label
 							}, item.href)), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 								className: "flex flex-col gap-3 mt-4",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 									variant: "outline",
-									className: "w-full",
-									children: "Entrar"
+									className: "w-full border-red-200 text-red-700 hover:bg-red-50",
+									children: "Área do Aluno"
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-									className: "w-full",
-									children: "Começar Agora"
+									className: "w-full bg-red-700 hover:bg-red-800 text-white",
+									onClick: () => handleNavClick("#planos"),
+									children: "Matricule-se"
 								})]
 							})]
-						})
+						})]
 					})] })
 				})
 			]
@@ -27719,141 +28037,169 @@ function Footer() {
 		e.preventDefault();
 		toast({
 			title: "Inscrição realizada!",
-			description: "Obrigado por assinar nossa newsletter."
+			description: "Você receberá novidades e conteúdos jurídicos exclusivos."
 		});
 	};
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
-		className: "bg-slate-900 border-t border-slate-800 pt-16 pb-8",
+		className: "bg-slate-950 border-t border-slate-900 pt-20 pb-10 text-slate-300",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12",
+				className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16",
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "space-y-4",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "flex items-center gap-2",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "bg-white/10 p-2 rounded-lg",
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, { className: "h-6 w-6 text-white" })
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-								className: "text-xl font-serif font-bold text-white",
-								children: "Magistrare"
-							})]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-sm text-slate-400 leading-relaxed",
-							children: "Transformando a advocacia com tecnologia de ponta e inteligência artificial para resultados extraordinários."
-						})]
+						className: "space-y-6",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "bg-white/10 p-2 rounded-lg",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, { className: "h-6 w-6 text-white" })
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "text-2xl font-serif font-bold text-white",
+									children: "Magistrare"
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-sm leading-relaxed text-slate-400",
+								children: "A maior plataforma de educação jurídica do país. Democratizando o acesso ao conhecimento de alta qualidade para estudantes e advogados."
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex gap-4",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+										variant: "ghost",
+										size: "icon",
+										className: "h-8 w-8 text-slate-400 hover:text-white hover:bg-white/10",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Linkedin, { className: "h-4 w-4" })
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+										variant: "ghost",
+										size: "icon",
+										className: "h-8 w-8 text-slate-400 hover:text-white hover:bg-white/10",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Instagram, { className: "h-4 w-4" })
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+										variant: "ghost",
+										size: "icon",
+										className: "h-8 w-8 text-slate-400 hover:text-white hover:bg-white/10",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Facebook, { className: "h-4 w-4" })
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+										variant: "ghost",
+										size: "icon",
+										className: "h-8 w-8 text-slate-400 hover:text-white hover:bg-white/10",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Twitter, { className: "h-4 w-4" })
+									})
+								]
+							})
+						]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-						className: "font-semibold text-slate-50 mb-4",
-						children: "Empresa"
+						className: "font-bold text-white mb-6",
+						children: "Cursos"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
-						className: "space-y-2 text-sm text-slate-400",
+						className: "space-y-3 text-sm",
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-red-400",
-								children: "Sobre Nós"
+								className: "hover:text-red-500 transition-colors",
+								children: "Preparatório OAB"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-red-400",
-								children: "Carreiras"
+								className: "hover:text-red-500 transition-colors",
+								children: "Carreiras Jurídicas"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-red-400",
-								children: "Blog"
+								className: "hover:text-red-500 transition-colors",
+								children: "Pós-Graduação"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-red-400",
-								children: "Imprensa"
+								className: "hover:text-red-500 transition-colors",
+								children: "Cursos de Extensão"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-red-500 transition-colors",
+								children: "Mentoria Prática"
 							}) })
 						]
 					})] }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-						className: "font-semibold text-slate-50 mb-4",
-						children: "Legal"
+						className: "font-bold text-white mb-6",
+						children: "Institucional"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
-						className: "space-y-2 text-sm text-slate-400",
+						className: "space-y-3 text-sm",
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-red-400",
-								children: "Termos de Uso"
+								className: "hover:text-red-500 transition-colors",
+								children: "Sobre a Magistrare"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-red-400",
-								children: "Privacidade"
+								className: "hover:text-red-500 transition-colors",
+								children: "Corpo Docente"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-red-400",
-								children: "Cookies"
+								className: "hover:text-red-500 transition-colors",
+								children: "Blog Jurídico"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-red-400",
-								children: "Compliance"
+								className: "hover:text-red-500 transition-colors",
+								children: "Trabalhe Conosco"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-red-500 transition-colors",
+								children: "Política de Privacidade"
 							}) })
 						]
 					})] }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "space-y-4",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-							className: "font-semibold text-slate-50",
-							children: "Newsletter"
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("form", {
-							onSubmit: handleSubscribe,
-							className: "space-y-2",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
-								placeholder: "Seu e-mail profissional",
-								required: true,
-								className: "bg-slate-800 border-slate-700 text-white placeholder:text-slate-500 focus-visible:ring-red-500"
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-								type: "submit",
-								className: "w-full bg-red-700 hover:bg-red-800 text-white",
-								children: "Inscrever-se"
-							})]
-						})]
+						className: "space-y-6",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+								className: "font-bold text-white",
+								children: "Fique Atualizado"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-sm text-slate-400",
+								children: "Receba resumos de jurisprudência e notícias semanais."
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("form", {
+								onSubmit: handleSubscribe,
+								className: "space-y-3",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
+									placeholder: "Seu melhor e-mail",
+									required: true,
+									type: "email",
+									className: "bg-slate-900 border-slate-800 text-white placeholder:text-slate-600 focus-visible:ring-red-600 focus-visible:border-red-600"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+									type: "submit",
+									className: "w-full bg-red-700 hover:bg-red-800 text-white font-medium",
+									children: "Inscrever-se na Newsletter"
+								})]
+							})
+						]
 					})
 				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-sm text-slate-500",
-					children: "© 2024 Magistrare. Todos os direitos reservados."
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex items-center gap-4",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-							variant: "ghost",
-							size: "icon",
-							className: "text-slate-400 hover:text-white hover:bg-slate-800",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Linkedin, { className: "h-4 w-4" })
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-							variant: "ghost",
-							size: "icon",
-							className: "text-slate-400 hover:text-white hover:bg-slate-800",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Instagram, { className: "h-4 w-4" })
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-							variant: "ghost",
-							size: "icon",
-							className: "text-slate-400 hover:text-white hover:bg-slate-800",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Facebook, { className: "h-4 w-4" })
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-							variant: "ghost",
-							size: "icon",
-							className: "text-slate-400 hover:text-white hover:bg-slate-800",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Twitter, { className: "h-4 w-4" })
-						})
-					]
+				className: "border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "© 2024 Magistrare Educacional S.A. Todos os direitos reservados. CNPJ: 00.000.000/0001-00" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex items-center gap-6",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center gap-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, { className: "h-3 w-3" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Av. Paulista, 1000 - SP" })]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center gap-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { className: "h-3 w-3" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "contato@magistrare.com.br" })]
+					})]
 				})]
 			})]
 		})
@@ -27895,4 +28241,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-By5aW6X0.js.map
+//# sourceMappingURL=index-CrrITYGR.js.map
