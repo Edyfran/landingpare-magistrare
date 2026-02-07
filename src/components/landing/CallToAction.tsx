@@ -18,7 +18,7 @@ export function CallToAction() {
         </h2>
         <p className="text-red-100 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
           Junte-se a milhares de advogados que já estão transformando sua
-          produtividade e resultados com a Juris Master.
+          produtividade e resultados com a Magistrare.
         </p>
         <Button
           size="lg"

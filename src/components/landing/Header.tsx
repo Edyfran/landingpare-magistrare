@@ -28,17 +28,17 @@ export function Header() {
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent',
         isScrolled
-          ? 'bg-white/80 backdrop-blur-md shadow-sm border-border py-2'
-          : 'bg-transparent py-4',
+          ? 'bg-red-700 shadow-sm border-red-800 py-2'
+          : 'bg-red-700 py-4',
       )}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="bg-primary/10 p-2 rounded-lg group-hover:bg-primary/20 transition-colors">
-            <Scale className="h-6 w-6 text-primary" />
+          <div className="bg-white/10 p-2 rounded-lg group-hover:bg-white/20 transition-colors">
+            <Scale className="h-6 w-6 text-white" />
           </div>
-          <span className="text-xl font-serif font-bold text-foreground tracking-tight">
-            Juris Master
+          <span className="text-xl font-serif font-bold text-white tracking-tight">
+            Magistrare
           </span>
         </Link>
 
@@ -48,7 +48,7 @@ export function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+              className="text-sm font-medium text-red-100 hover:text-white transition-colors"
             >
               {item.label}
             </a>
@@ -58,11 +58,11 @@ export function Header() {
         <div className="hidden md:flex items-center gap-4">
           <Button
             variant="ghost"
-            className="text-muted-foreground hover:text-primary"
+            className="text-red-100 hover:text-white hover:bg-red-800"
           >
             Entrar
           </Button>
-          <Button className="bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
+          <Button className="bg-white text-red-700 hover:bg-red-50 shadow-lg shadow-black/10 border-none">
             Começar Agora
           </Button>
         </div>
@@ -71,7 +71,11 @@ export function Header() {
         <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="text-white hover:bg-red-800"
+              >
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>

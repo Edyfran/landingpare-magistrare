@@ -17,7 +17,7 @@ export function Hero() {
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-slate-900 leading-tight">
               Domine o Direito com a{' '}
-              <span className="text-primary">Juris Master</span>
+              <span className="text-primary">Magistrare</span>
             </h1>
 
             <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-xl">
@@ -68,7 +68,7 @@ export function Hero() {
               </div>
               <img
                 src="https://img.usecurling.com/p/1200/800?q=legal%20dashboard%20software%20ui&color=red"
-                alt="Plataforma Juris Master"
+                alt="Plataforma Magistrare"
                 className="w-full h-auto pt-8"
               />
             </div>

@@ -23882,7 +23882,7 @@ function Hero() {
 								" ",
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "text-primary",
-									children: "Juris Master"
+									children: "Magistrare"
 								})
 							]
 						}),
@@ -23933,7 +23933,7 @@ function Hero() {
 							]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: "https://img.usecurling.com/p/1200/800?q=legal%20dashboard%20software%20ui&color=red",
-							alt: "Plataforma Juris Master",
+							alt: "Plataforma Magistrare",
 							className: "w-full h-auto pt-8"
 						})]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
@@ -24003,7 +24003,7 @@ function Differentials() {
 				className: "text-center max-w-3xl mx-auto mb-16 space-y-4",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 					className: "text-3xl md:text-4xl font-serif font-bold text-slate-900",
-					children: "Por que escolher a Juris Master?"
+					children: "Por que escolher a Magistrare?"
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "text-muted-foreground text-lg",
 					children: "Tecnologia desenvolvida por advogados para advogados, focada em resolver os gargalos reais da profissão."
@@ -26121,7 +26121,7 @@ function Stats() {
 							{
 								name: "Dr. Carlos Mendes",
 								role: "Sócio Senior, Mendes & Associados",
-								text: "A Juris Master revolucionou a forma como gerimos nossos processos. A economia de tempo é incomparável.",
+								text: "A Magistrare revolucionou a forma como gerimos nossos processos. A economia de tempo é incomparável.",
 								image: "https://img.usecurling.com/ppl/medium?gender=male&seed=10"
 							},
 							{
@@ -26321,7 +26321,7 @@ function CallToAction() {
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "text-red-100 text-lg md:text-xl mb-10 max-w-2xl mx-auto",
-					children: "Junte-se a milhares de advogados que já estão transformando sua produtividade e resultados com a Juris Master."
+					children: "Junte-se a milhares de advogados que já estão transformando sua produtividade e resultados com a Magistrare."
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 					size: "lg",
@@ -27634,7 +27634,7 @@ function Header() {
 		}
 	];
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("header", {
-		className: cn("fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent", isScrolled ? "bg-white/80 backdrop-blur-md shadow-sm border-border py-2" : "bg-transparent py-4"),
+		className: cn("fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent", isScrolled ? "bg-red-700 shadow-sm border-red-800 py-2" : "bg-red-700 py-4"),
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4 flex items-center justify-between",
 			children: [
@@ -27642,18 +27642,18 @@ function Header() {
 					to: "/",
 					className: "flex items-center gap-2 group",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "bg-primary/10 p-2 rounded-lg group-hover:bg-primary/20 transition-colors",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, { className: "h-6 w-6 text-primary" })
+						className: "bg-white/10 p-2 rounded-lg group-hover:bg-white/20 transition-colors",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, { className: "h-6 w-6 text-white" })
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-						className: "text-xl font-serif font-bold text-foreground tracking-tight",
-						children: "Juris Master"
+						className: "text-xl font-serif font-bold text-white tracking-tight",
+						children: "Magistrare"
 					})]
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", {
 					className: "hidden md:flex items-center gap-8",
 					children: navItems.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 						href: item.href,
-						className: "text-sm font-medium text-muted-foreground hover:text-primary transition-colors",
+						className: "text-sm font-medium text-red-100 hover:text-white transition-colors",
 						children: item.label
 					}, item.href))
 				}),
@@ -27661,10 +27661,10 @@ function Header() {
 					className: "hidden md:flex items-center gap-4",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 						variant: "ghost",
-						className: "text-muted-foreground hover:text-primary",
+						className: "text-red-100 hover:text-white hover:bg-red-800",
 						children: "Entrar"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-						className: "bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20",
+						className: "bg-white text-red-700 hover:bg-red-50 shadow-lg shadow-black/10 border-none",
 						children: "Começar Agora"
 					})]
 				}),
@@ -27675,6 +27675,7 @@ function Header() {
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 							variant: "ghost",
 							size: "icon",
+							className: "text-white hover:bg-red-800",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Menu, { className: "h-6 w-6" })
 						})
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SheetContent, {
@@ -27722,7 +27723,7 @@ function Footer() {
 		});
 	};
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
-		className: "bg-slate-50 border-t pt-16 pb-8",
+		className: "bg-slate-900 border-t border-slate-800 pt-16 pb-8",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -27732,67 +27733,70 @@ function Footer() {
 						className: "space-y-4",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "flex items-center gap-2",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, { className: "h-6 w-6 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-								className: "text-xl font-serif font-bold",
-								children: "Juris Master"
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "bg-white/10 p-2 rounded-lg",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Scale, { className: "h-6 w-6 text-white" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-xl font-serif font-bold text-white",
+								children: "Magistrare"
 							})]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-sm text-muted-foreground leading-relaxed",
+							className: "text-sm text-slate-400 leading-relaxed",
 							children: "Transformando a advocacia com tecnologia de ponta e inteligência artificial para resultados extraordinários."
 						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-						className: "font-semibold mb-4",
+						className: "font-semibold text-slate-50 mb-4",
 						children: "Empresa"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
-						className: "space-y-2 text-sm text-muted-foreground",
+						className: "space-y-2 text-sm text-slate-400",
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-primary",
+								className: "hover:text-red-400",
 								children: "Sobre Nós"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-primary",
+								className: "hover:text-red-400",
 								children: "Carreiras"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-primary",
+								className: "hover:text-red-400",
 								children: "Blog"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-primary",
+								className: "hover:text-red-400",
 								children: "Imprensa"
 							}) })
 						]
 					})] }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-						className: "font-semibold mb-4",
+						className: "font-semibold text-slate-50 mb-4",
 						children: "Legal"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
-						className: "space-y-2 text-sm text-muted-foreground",
+						className: "space-y-2 text-sm text-slate-400",
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-primary",
+								className: "hover:text-red-400",
 								children: "Termos de Uso"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-primary",
+								className: "hover:text-red-400",
 								children: "Privacidade"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-primary",
+								className: "hover:text-red-400",
 								children: "Cookies"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 								href: "#",
-								className: "hover:text-primary",
+								className: "hover:text-red-400",
 								children: "Compliance"
 							}) })
 						]
@@ -27800,52 +27804,53 @@ function Footer() {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "space-y-4",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-							className: "font-semibold",
+							className: "font-semibold text-slate-50",
 							children: "Newsletter"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("form", {
 							onSubmit: handleSubscribe,
 							className: "space-y-2",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
 								placeholder: "Seu e-mail profissional",
-								required: true
+								required: true,
+								className: "bg-slate-800 border-slate-700 text-white placeholder:text-slate-500 focus-visible:ring-red-500"
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 								type: "submit",
-								className: "w-full",
+								className: "w-full bg-red-700 hover:bg-red-800 text-white",
 								children: "Inscrever-se"
 							})]
 						})]
 					})
 				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4",
+				className: "border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-sm text-muted-foreground",
-					children: "© 2024 Juris Master. Todos os direitos reservados."
+					className: "text-sm text-slate-500",
+					children: "© 2024 Magistrare. Todos os direitos reservados."
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex items-center gap-4",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 							variant: "ghost",
 							size: "icon",
-							className: "hover:text-primary",
+							className: "text-slate-400 hover:text-white hover:bg-slate-800",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Linkedin, { className: "h-4 w-4" })
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 							variant: "ghost",
 							size: "icon",
-							className: "hover:text-primary",
+							className: "text-slate-400 hover:text-white hover:bg-slate-800",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Instagram, { className: "h-4 w-4" })
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 							variant: "ghost",
 							size: "icon",
-							className: "hover:text-primary",
+							className: "text-slate-400 hover:text-white hover:bg-slate-800",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Facebook, { className: "h-4 w-4" })
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 							variant: "ghost",
 							size: "icon",
-							className: "hover:text-primary",
+							className: "text-slate-400 hover:text-white hover:bg-slate-800",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Twitter, { className: "h-4 w-4" })
 						})
 					]
@@ -27890,4 +27895,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-DA5kkOLt.js.map
+//# sourceMappingURL=index-By5aW6X0.js.map

@@ -13,7 +13,7 @@ export function Stats() {
     {
       name: 'Dr. Carlos Mendes',
       role: 'Sócio Senior, Mendes & Associados',
-      text: 'A Juris Master revolucionou a forma como gerimos nossos processos. A economia de tempo é incomparável.',
+      text: 'A Magistrare revolucionou a forma como gerimos nossos processos. A economia de tempo é incomparável.',
       image: 'https://img.usecurling.com/ppl/medium?gender=male&seed=10',
     },
     {
