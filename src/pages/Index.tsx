@@ -1,10 +1,19 @@
-/* Home Page - Replace this page layout, components, content, behavior with what you want and translate to the language of the user */
+import { Hero } from '@/components/landing/Hero'
+import { Differentials } from '@/components/landing/Differentials'
+import { Benefits } from '@/components/landing/Benefits'
+import { Stats } from '@/components/landing/Stats'
+import { Pricing } from '@/components/landing/Pricing'
+import { CallToAction } from '@/components/landing/CallToAction'
+
 const Index = () => {
   return (
-    <div className="container mx-auto py-8 px-4">
-      <h1 className="text-3xl font-bold mb-6">
-        This is a example page ready to be rewritten with your own content
-      </h1>
+    <div className="flex flex-col w-full">
+      <Hero />
+      <Differentials />
+      <Benefits />
+      <Stats />
+      <Pricing />
+      <CallToAction />
     </div>
   )
 }
